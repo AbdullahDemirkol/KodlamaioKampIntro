@@ -17,12 +17,12 @@ namespace ClassIntro
 
                 Kurs kurs2 = new Kurs();
                 kurs2.KursAdi = "Java";
-                kurs2.Egitmen = "Kerem Varış";
+                kurs2.Egitmen = "Abdullah Demirkol";
                 kurs2.IzlenmeOrani = 64;
 
                 Kurs kurs3 = new Kurs();
                 kurs3.KursAdi = "Python";
-                kurs3.Egitmen = "Berkay Bilgin";
+                kurs3.Egitmen = "Ecem Sarıca";
                 kurs3.IzlenmeOrani = 80;
 
                 Kurs kurs4 = new Kurs();
