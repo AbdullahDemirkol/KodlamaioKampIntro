@@ -29,7 +29,7 @@ namespace ClassIntro
                 kurs4.KursAdi = "C++";
                 kurs4.Egitmen = "Murat Kurtboğan";
                 kurs4.IzlenmeOrani = 100;
-
+                as
 
 
                 Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4 };
