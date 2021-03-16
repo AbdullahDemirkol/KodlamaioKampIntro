@@ -55,7 +55,6 @@ namespace OOP3
             List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKredi ,tasitKredi,konutKredi,esnafKredisi};
             basvuruManager.KrediOnBilgilendirmesiYap(krediler);
 
-            Console.ReadLine();
         }
     }
 }

@@ -39,8 +39,6 @@ namespace Metotlar
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
             sepetManager.Ekle(urun3);
-
-            Console.ReadLine();
         }
     }
 }

@@ -15,7 +15,6 @@ namespace GameProject
                 LastName = "Demirkol",
                 IdentityName = 12345,
             });
-            Console.ReadLine();
         }
     }
 }

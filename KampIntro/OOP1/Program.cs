@@ -29,7 +29,6 @@ namespace OOP1
             Console.WriteLine(product1.ProductName);
 
 
-            Console.ReadLine();
 
             //int,double,bool... değer tip
             //diziler,class, abstract class, interface ... referans tip

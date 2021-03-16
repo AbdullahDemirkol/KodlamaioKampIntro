@@ -27,7 +27,6 @@ namespace Koleksiyonlar
             Console.WriteLine(isimler2[4]);
             Console.WriteLine(isimler2[0]);
 
-            Console.ReadLine();
         }
     }
 }
