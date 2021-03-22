@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Metods
 {
@@ -20,6 +21,8 @@ namespace Metods
             //ref keywordu için number1 e değer verip yollaman gerekirdi ama onun yerine out keywordu kullansaydın böyle bir zorunluluğumuz olmaz.
             Console.WriteLine(result);
             Console.WriteLine(number1);
+
+            Console.WriteLine("Params keywordüyle toplama:"+Add4(2,5,1,23,42,12));
         }
         static void Add()
         {
@@ -35,6 +38,10 @@ namespace Metods
             //ref keywordüyle yolladığımız için number1'i yazdırınca 30 yazdırıyor yoksa 20 yazdırırdı.
             number1 = 30;
             return number1 + number2;
+        }
+        static int Add4(params int[] numbers)
+        {
+            return numbers.Sum();
         }
     }
     

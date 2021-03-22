@@ -27,7 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameProject", "GameProject\GameProject.csproj", "{85EEFE39-61A0-4ED8-BB63-B1EB57EF8452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metods", "Metot\Metods.csproj", "{B2089623-7C0F-45EA-AE52-E33840FD8AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metods", "Metot\Metods.csproj", "{B2089623-7C0F-45EA-AE52-E33840FD8AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{5A07D372-1116-45E3-BE4B-EFF558F1060A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{FC3E307B-F8FB-4B68-A22C-98AE94C29AD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{B2089623-7C0F-45EA-AE52-E33840FD8AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2089623-7C0F-45EA-AE52-E33840FD8AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2089623-7C0F-45EA-AE52-E33840FD8AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A07D372-1116-45E3-BE4B-EFF558F1060A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A07D372-1116-45E3-BE4B-EFF558F1060A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A07D372-1116-45E3-BE4B-EFF558F1060A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A07D372-1116-45E3-BE4B-EFF558F1060A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3E307B-F8FB-4B68-A22C-98AE94C29AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3E307B-F8FB-4B68-A22C-98AE94C29AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3E307B-F8FB-4B68-A22C-98AE94C29AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3E307B-F8FB-4B68-A22C-98AE94C29AD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
