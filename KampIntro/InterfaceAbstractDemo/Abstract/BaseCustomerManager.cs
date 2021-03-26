@@ -9,7 +9,7 @@ namespace InterfaceAbstractDemo.Abstract
     {
         public virtual void Save(Customer customer)
         {
-            Console.WriteLine("Save to database :" + customer.FirstName);
+            Console.WriteLine("Added to database :" + customer.FirstName);
         }
     }
 }
