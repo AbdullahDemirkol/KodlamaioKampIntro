@@ -35,7 +35,10 @@ namespace ClassIntro
 
                 foreach (var kurs in kurslar)
                 {
-                    Console.WriteLine(kurs.KursAdi + " : " + kurs.Egitmen);
+                    Console.WriteLine("Kurs Adı: "+kurs.KursAdi);
+                    Console.WriteLine("Kurs Eğitmeni: " + kurs.KursEgitmeni);
+                    Console.WriteLine("İzlenme Oranı: " + kurs.IzlenmeOrani);
+                    Console.WriteLine("-----------------------------------");
                 }
             }
         }
